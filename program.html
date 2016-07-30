@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Detailed Program – Haskell in Leipzipg</title>
+        <link rel="stylesheet" type="text/css" href="./css/default.css" />
+    </head>
+    <body>
+        <!--
+        <div id="header">
+            <div id="logo">
+                <a href="/">Haskell in Leipzipg</a>
+            </div>
+            <div id="navigation">
+                <a href="/">Haskell in Leipzipg</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/archive.html">Archive</a>
+            </div>
+        </div>
+	-->
+
+        <div id="content">
+	    
+            <h1><small><a href="./">Haskell in Leipzipg</a></small><br />Detailed Program</h1>
+	    
+
+
+        
+
+            <h2 id="invited-talk">Invited talk</h2>
+<h3 id="russo">Preserving Privacy with Monads</h3>
+<p><em>by <a href="http://www.cse.chalmers.se/~russo/">Alejandro Russo</a></em></p>
+<p>In a all-connected society, users consciously (or unconsciously) value their privacy. Even skeptical people will recognize its importance; if they do not, ask them to unlock their smartphone and hand it out to someone else—they will most probably refuse! Users want to have control on how their data gets disseminated, specially today when private information gets handled by software with heterogeneous trustworthiness—consider, for example, the various smartphones apps with access to users’ private photos, messages, and contacts that exists today. Unfortunately, current software practices are insufficient to protect privacy: users who wish to benefit from software functionality are often forced to grant access to their private data with no guarantees how it gets handled. The key insight to guarantee privacy is not about granting or denying access to private data, but ensuring that information only flows into the appropriated places.</p>
+<p>Information-Flow Control (IFC) is a research area dedicated to protect privacy of data. Based on programming languages techniques, IFC scrutinizes source code to track how data of different sensitivity levels (e.g., public or private) flows within a program, where alarms are raised when privacy might be at stake. IFC tools often provide specially designed compilers to build privacy-preserving apps. Rather than building a compiler from scratch (a major task on its own), Haskell plays a unique privileged role in this scenario: it can provide IFC security via libraries. As long as developers program against the libraries’ API, code is secure by construction. This talk shows how to build such libraries by specially designing monads capable to restrict the propagation of private data. The presentation explores the different techniques used in a wide range of libraries, namely LIO, MAC, and HLIO, where IFC is enforced dynamically (in the form of an execution monitor), statically (by leveraging Haskell’s type-system), and as a combination of both.</p>
+<p><strong>Short bio</strong>: [Alejandro Russo] is an associate professor at Chalmers University of Technology working on the intersection of functional languages, security, and systems. He is the recipient of a Google Research Awards and several grants from the Swedish research agencies Vetenskapsrådet, STINT, and Barbro Osher foundation. Internationally, Prof. Russo worked on prestigious research institutions like Stanford University, where he was appointed visiting associate professor. His research ranges from foundational aspects of security to developing tools to secure software written in Haskell, Python, and JavaScript.</p>
+<p><a href="http://www.cse.chalmers.se/~russo/">Alejandro Russo</a></p>
+<h2 id="contributed-talks">Contributed Talks</h2>
+<h3 id="waldmann">Automated Performance Measurements</h3>
+<p><em>by <a href="http://www.imn.htwk-leipzig.de/~waldmann/">Johannes Waldmann</a></em></p>
+<h3 id="stadler">Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics</h3>
+<p><em>by Sarah J. Berkemer, <a href="http://www.bioinf.uni-leipzig.de/">Peter F. Stadler</a> and <a href="http://www.bioinf.uni-leipzig.de/~choener/index.html">Christian Hoener Zu Siederdissen</a>:</em></p>
+<h3 id="althainz">HGamer3D - a toolset for developing games with Haskell</h3>
+<p><em>by Peter Althainz</em></p>
+<h3 id="winschel">Management at Algorithmic Financial Markets</h3>
+<p><em>by Viktor Winschel</em></p>
+<h3 id="fischmann">Project report: building a web-application with servant, lucid, and digestive-functors</h3>
+<p><em>by Matthias Fischmann and Andor Penzes:</em></p>
+<h3 id="brunjes">Dependently Typed Heaps</h3>
+<p><em>by <a href="https://github.com/brunjlar">Lars Brünjes</a></em></p>
+<h3 id="komuves">Random access lists, nested data types and numeral systems</h3>
+<p><em>by Balazs Komuves</em></p>
+<h3 id="graf">Plugin Architectures in Haskell</h3>
+<p><em>by Sebastian Graf</em></p>
+<h3 id="kant">Store: An Efficient Binary Serialization Library</h3>
+<p><em>by Philipp Kant</em></p>
+<h3 id="kholomiov-talk">Csound-expression Haskell framework for computer music</h3>
+<p><em>by Anton Kholomiov</em></p>
+<p>(Note the corresponding <a href="#kholomiov-tutorial">tutorial</a>.)</p>
+<h3 id="penez">Simple blog engine with shape functors and generic eliminators for ADTs</h3>
+<p><em>by Andor Penzes</em></p>
+<h2 id="tutorials">Tutorials</h2>
+<h3 id="thielemann">Efficient signal processing using Haskell and LLVM</h3>
+<p><em>by Henning Thielemann</em></p>
+<h3 id="kholomiov-tutorial">Workshop: creating computer music with Haskell</h3>
+<p><em>by <a href="https://github.com/anton-k">Anton Kholomiov</a></em></p>
+<p>(Note the corresponding <a href="#kholomiov-talk">talk</a>.)</p>
+<h3 id="schuster">Ten example uses of monads</h3>
+<p><em>by Philipp Schuster</em></p>
+
+        </div>
+
+        <div id="footer">
+            Site proudly generated by
+            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+        </div>
+    </body>
+</html>
